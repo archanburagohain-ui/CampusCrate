@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "http://localhost:5000";
+const API = "https://campuscrate-backend-426h.onrender.com";
 
 function PostItem({ setPage }) {
   const [title, setTitle] = useState("");
