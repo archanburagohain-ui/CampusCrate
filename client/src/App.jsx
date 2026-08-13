@@ -5,7 +5,7 @@ import PostItem from "./PostItem";
 import ClaimItem from "./ClaimItem";
 import AdminDashboard from "./AdminDashboard";
 
-const API = "http://localhost:5000";
+const API = "https://campuscrate-backend-426h.onrender.com";
 
 function App() {
   const [page, setPage] = useState("home");
